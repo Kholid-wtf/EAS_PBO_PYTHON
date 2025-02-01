@@ -1,16 +1,3 @@
 {
-    "version": 2,
-    "builds": [
-      {
-        "src": "task_manager.py",
-        "use": "@vercel/python"
-      }
-    ],
-    "routes": [
-      {
-        "src": "/(.*)",
-        "dest": "/task_manager.py"
-      }
-    ]
-  }
-    
+  "version": 2
+}
